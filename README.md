@@ -39,7 +39,7 @@ Accede a la carpeta frontend_toolbox.
 
 bash
 Copy code
-cd frontend_toolbox
+`cd frontend_toolbox`
 Instala las dependencias utilizando el siguiente comando:
 
 bash
