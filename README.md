@@ -16,16 +16,18 @@
 
 
 ```npm run start```
-## El servidor estará disponible en http://localhost:/8000/toolbox/api/.
+## El servidor estará disponible en http://localhost:/8000/toolbox/api/
 
 La API proporciona las siguientes rutas:
 
-Obtener la lista de archivos.
-```GET /files/list ```
-Obtener todos los productos detallados.
-```GET /getfiles```
-Obtener un archivo especifico, este requiere un parámetro fileName para obtener datos específicos del archivo.
-```GET /files/data?fileName=<nombre del archivo>``` 
+Obtener la lista de archivos. con el metodo GET:
+```/files/list ```
+
+Obtener todos los productos detallados. con el metodo GET:
+```/getfiles```
+
+Obtener un archivo especifico, este requiere un parámetro fileName para obtener datos específicos del archivo. con el metodo GET:
+```/files/data?fileName=<nombre del archivo>``` 
 
 ## Para ejecutar los tests, utiliza el siguiente comando:
 
