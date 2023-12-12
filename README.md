@@ -2,21 +2,20 @@
 ¡Bienvenido a la prueba técnica de Toolbox! Aquí encontrarás las instrucciones para poner en marcha tanto el frontend como el backend de la aplicación.
 
 # Backend
-Accede a la carpeta backend_toolbox.
+ ## Accede a la carpeta backend_toolbox.
 
-bash
-Copy code
+
 cd backend_toolbox
-Instala las dependencias utilizando el siguiente comando:
 
-bash
-Copy code
-npm install
+## Instala las dependencias utilizando el siguiente comando:
+
+
+``` npm install
 o
 
 bash
 Copy code
-npm i
+``` npm i
 Después de la instalación de las dependencias, ejecuta el siguiente comando para iniciar el servidor:
 
 bash
