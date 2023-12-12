@@ -5,17 +5,15 @@
  ## Accede a la carpeta backend_toolbox.
 
 
-cd backend_toolbox
+```cd backend_toolbox```
 
 ## Instala las dependencias utilizando el siguiente comando:
 
 
-``` npm install
+``` npm install```
 o
 
-bash
-Copy code
-``` npm i
+``` npm i```
 Después de la instalación de las dependencias, ejecuta el siguiente comando para iniciar el servidor:
 
 bash
