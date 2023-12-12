@@ -11,26 +11,27 @@
 
 
 ``` npm install```
-o
-
 ``` npm i```
-Después de la instalación de las dependencias, ejecuta el siguiente comando para iniciar el servidor:
+## Iniciar el servidor:
 
-bash
-Copy code
-npm run start
-El servidor estará disponible en http://localhost:3000.
+
+```npm run start```
+## El servidor estará disponible en http://localhost:/8000/toolbox/api/.
 
 La API proporciona las siguientes rutas:
 
-GET /files/list: Obtiene la lista de archivos.
-GET /getfiles: Obtiene todos los productos detallados.
-GET /files/data?fileName=<nombre del archivo>: Recibe un parámetro fileName para obtener datos específicos del archivo.
-Para ejecutar los tests, utiliza el siguiente comando:
+Obtener la lista de archivos.
+```GET /files/list ```
+Obtener todos los productos detallados.
+```GET /getfiles```
+Obtener un archivo especifico, este requiere un parámetro fileName para obtener datos específicos del archivo.
+```GET /files/data?fileName=<nombre del archivo>``` 
 
-bash
-Copy code
-npm test
+## Para ejecutar los tests, utiliza el siguiente comando:
+
+
+```npm test```
+
 # Frontend
 Accede a la carpeta frontend_toolbox.
 
