@@ -37,24 +37,18 @@ Obtener un archivo especifico, este requiere un parámetro fileName para obtener
 # Frontend
 Accede a la carpeta frontend_toolbox.
 
-bash
-Copy code
-`cd frontend_toolbox`
-Instala las dependencias utilizando el siguiente comando:
+```cd frontend_toolbox```
 
-bash
-Copy code
-npm install
-o
+## Instala las dependencias utilizando el siguiente comando:
 
-bash
-Copy code
-npm i
-Después de la instalación de las dependencias, inicia el servidor frontend con el siguiente comando:
 
-bash
-Copy code
-npm start
-El frontend estará disponible en http://localhost:3001.
+```npm install```
+```npm i```
+
+## Después de la instalación de las dependencias, inicia el servidor frontend con el siguiente comando:
+
+```npm start```
+
+## El frontend estará disponible en http://localhost:3000.
 
 ¡Listo! Ahora deberías tener tanto el backend como el frontend funcionando correctamente. ¡Buena suerte con la prueba técnica!
