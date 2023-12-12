@@ -35,7 +35,7 @@ Obtener un archivo especifico, este requiere un parámetro fileName para obtener
 ```npm test```
 
 # Frontend
-Accede a la carpeta frontend_toolbox.
+## Accede a la carpeta frontend_toolbox.
 
 ```cd frontend_toolbox```
 
@@ -49,6 +49,18 @@ Accede a la carpeta frontend_toolbox.
 
 ```npm start```
 
-## El frontend estará disponible en http://localhost:3000.
+## El frontend estará disponible en http://localhost:3000
 
-¡Listo! Ahora deberías tener tanto el backend como el frontend funcionando correctamente. ¡Buena suerte con la prueba técnica!
+¡Listo! Ahora deberías tener tanto el backend como el frontend funcionando correctamente. 
+
+## Funcionamiento de la aplicacion 
+
+La aplicacion contiene una unica pantalla, abajo del titulo contendra 3 botones que permitira navegar entre las distintas tablas
+
+### Boton "List Files" permitira mostar el listado de los archivos, solo mostrando su nombre
+
+### Boton "All Files" permitira mostar el contenido filtrador de todos los archivos,mostrando su nombre, el texto, el numero y su valor hexadecimal
+
+### Boton "Search File" permitira buscar un archivo especifico el cual se buscara automaticamente luego de que el usuario deje de escribir en el campo de busqueda, para que este funcione, debes introducir el nombre completo del archivo ejemplo: test9.csv, al encontrar un archivo se va a mostrar su nombre, el texto, el numero y su valor hexadecimal
+
+ 

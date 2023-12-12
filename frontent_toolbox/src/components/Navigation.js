@@ -5,7 +5,7 @@ const Navigation = ({ view, setView }) => {
     return (
         <Container className='NavigationContainer'>
             <Button onClick={() => setView(0)}>
-                Lista Files
+                List Files
             </Button>
             <Button onClick={() => setView(1)}>
                 All Files
